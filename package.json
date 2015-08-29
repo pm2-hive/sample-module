@@ -12,7 +12,7 @@
   },
   "config" : {
     "configurable_var_1" : true,
-    "configurable_var_2" : 'myvalue'
+    "configurable_var_2" : "myvalue"
   },
   "apps" : [{
     "merge_logs"         : true,
