@@ -1,0 +1,24 @@
+{
+  "name": "sample-module",
+  "version": "1.0.0",
+  "description": "PM2 Sample Module",
+  "main": "app.js",
+  "dependencies": {
+    "pmx" : "beta"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/keymetrics/pmx.git"
+  },
+  "config" : {
+    "aconfig-var" : true,
+    "var2" : false
+  },
+  "apps" : [{
+    "merge_logs"         : true,
+    "max_memory_restart" : "200M",
+    "script"             : "app.js"
+  }],
+  "author": "Keymetrics Inc.",
+  "license": "MIT"
+}
