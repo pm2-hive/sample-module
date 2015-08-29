@@ -61,7 +61,7 @@ pmx.initModule({
       meta    : true,
 
       // Custom metrics to put in BIG
-      main_probes : ['Value']
+      main_probes : ['test-probe']
     }
 
   },
@@ -105,7 +105,7 @@ pmx.initModule({
       action   : function(val) {
         // Besides the automatic alert sent via Keymetrics
         // You can also configure your own logic to do something
-        console.log('exiting because val reached %d', val);
+        console.log('Value has reached %d', val);
       }
     }
   });
@@ -113,7 +113,7 @@ pmx.initModule({
   setInterval(function() {
     // Then we can see that this value increase over the time in Keymetrics
     value_to_inspect++;
-  }, 200);
+  }, 300);
 
 
   /**
