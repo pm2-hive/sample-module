@@ -11,8 +11,8 @@
     "url": "https://github.com/keymetrics/pmx.git"
   },
   "config" : {
-    "aconfig-var" : true,
-    "var2" : false
+    "configurable_var_1" : true,
+    "configurable_var_2" : 'myvalue'
   },
   "apps" : [{
     "merge_logs"         : true,
