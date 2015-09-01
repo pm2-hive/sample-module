@@ -64,9 +64,7 @@ pmx.initModule({
       main_probes : ['test-probe']
     }
 
-  },
-
-  alert_enabled : true
+  }
 
 }, function(err, conf) {
 
